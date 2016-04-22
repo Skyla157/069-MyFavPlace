@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51693D31CC95A170079AF55 /* ImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51693D21CC95A170079AF55 /* ImagePageViewController.swift */; };
+		A51693D51CC976230079AF55 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51693D41CC976230079AF55 /* Buttons.swift */; };
+		A53746DE1CC98793009A4E91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53746DD1CC98793009A4E91 /* MainViewController.swift */; };
+		A53746E11CC98A19009A4E91 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A53746DF1CC98A19009A4E91 /* CaviarDreams_Bold.ttf */; };
+		A53746E21CC98A19009A4E91 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A53746E01CC98A19009A4E91 /* CaviarDreams.ttf */; };
+		A53746E41CC98D14009A4E91 /* PhotoLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53746E31CC98D14009A4E91 /* PhotoLabels.swift */; };
 		A53CCA671CC876440039D2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CCA661CC876440039D2C6 /* AppDelegate.swift */; };
-		A53CCA691CC876440039D2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CCA681CC876440039D2C6 /* ViewController.swift */; };
+		A53CCA691CC876440039D2C6 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CCA681CC876440039D2C6 /* ImageViewController.swift */; };
 		A53CCA6C1CC876440039D2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53CCA6A1CC876440039D2C6 /* Main.storyboard */; };
 		A53CCA6E1CC876440039D2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53CCA6D1CC876440039D2C6 /* Assets.xcassets */; };
 		A53CCA711CC876440039D2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53CCA6F1CC876440039D2C6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51693D21CC95A170079AF55 /* ImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePageViewController.swift; sourceTree = "<group>"; };
+		A51693D41CC976230079AF55 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		A53746DD1CC98793009A4E91 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A53746DF1CC98A19009A4E91 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		A53746E01CC98A19009A4E91 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		A53746E31CC98D14009A4E91 /* PhotoLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLabels.swift; sourceTree = "<group>"; };
 		A53CCA631CC876440039D2C6 /* 069-MyFavPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "069-MyFavPlace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53CCA661CC876440039D2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A53CCA681CC876440039D2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A53CCA681CC876440039D2C6 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A53CCA6B1CC876440039D2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A53CCA6D1CC876440039D2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A53CCA701CC876440039D2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,12 +66,18 @@
 		A53CCA651CC876440039D2C6 /* 069-MyFavPlace */ = {
 			isa = PBXGroup;
 			children = (
+				A53746DF1CC98A19009A4E91 /* CaviarDreams_Bold.ttf */,
+				A53746E01CC98A19009A4E91 /* CaviarDreams.ttf */,
 				A53CCA661CC876440039D2C6 /* AppDelegate.swift */,
-				A53CCA681CC876440039D2C6 /* ViewController.swift */,
+				A53CCA681CC876440039D2C6 /* ImageViewController.swift */,
+				A53746DD1CC98793009A4E91 /* MainViewController.swift */,
 				A53CCA6A1CC876440039D2C6 /* Main.storyboard */,
+				A51693D21CC95A170079AF55 /* ImagePageViewController.swift */,
 				A53CCA6D1CC876440039D2C6 /* Assets.xcassets */,
 				A53CCA6F1CC876440039D2C6 /* LaunchScreen.storyboard */,
 				A53CCA721CC876440039D2C6 /* Info.plist */,
+				A53746E31CC98D14009A4E91 /* PhotoLabels.swift */,
+				A51693D41CC976230079AF55 /* Buttons.swift */,
 			);
 			path = "069-MyFavPlace";
 			sourceTree = "<group>";
@@ -125,6 +143,8 @@
 				A53CCA711CC876440039D2C6 /* LaunchScreen.storyboard in Resources */,
 				A53CCA6E1CC876440039D2C6 /* Assets.xcassets in Resources */,
 				A53CCA6C1CC876440039D2C6 /* Main.storyboard in Resources */,
+				A53746E21CC98A19009A4E91 /* CaviarDreams.ttf in Resources */,
+				A53746E11CC98A19009A4E91 /* CaviarDreams_Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53CCA691CC876440039D2C6 /* ViewController.swift in Sources */,
+				A53CCA691CC876440039D2C6 /* ImageViewController.swift in Sources */,
+				A51693D31CC95A170079AF55 /* ImagePageViewController.swift in Sources */,
 				A53CCA671CC876440039D2C6 /* AppDelegate.swift in Sources */,
+				A53746DE1CC98793009A4E91 /* MainViewController.swift in Sources */,
+				A53746E41CC98D14009A4E91 /* PhotoLabels.swift in Sources */,
+				A51693D51CC976230079AF55 /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +308,7 @@
 				A53CCA771CC876440039D2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
